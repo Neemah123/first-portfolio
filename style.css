@@ -1,0 +1,131 @@
+body{
+    margin: 0 auto;
+    
+}
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  #navbar{
+   background-color: orange;
+ width: 100%;
+ position: fixed;
+  }
+  .navlist{
+      list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ width: auto;
+ background: fixed;
+ background-color: orange;
+
+  }
+  .navlist li{
+      font-size: 30px;
+      font-weight: bold;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+  }
+  .navlist li a{
+      text-decoration: none;
+      color: aliceblue;
+  }
+  .navlist li a:hover{
+      color: gray;
+  }
+  .name{
+    padding-top: 200px;  
+
+  }
+  #welcomesection{
+      font-size: 60px;
+   color: aliceblue;
+   border-style: none;
+   background-color: gray;
+   margin-top: 0px;
+   height: 600px;
+  }
+  .front{
+      color: orange;
+  }
+#projects{
+    border-style: none;
+    height: 1200px;
+    background-color: black;
+    color: aliceblue;
+}
+#projects p{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+#flexboxcontainer{
+    display: flex;
+    margin-top: 20px;
+}
+#flexboxcontainer .tribute{
+    width: 500px;
+    margin: 10px;
+    border: 2px solid orange;
+    background-color: gray;
+    min-height: 550px;
+    font-size: 30px;
+    text-align: center;
+
+}
+#flexboxcontainer .restaurant{
+    width: 500px;
+    margin: 10px;
+    border: 2px solid orange;
+    background-color: gray;
+    min-height: 550px;
+    font-size: 30px;
+    text-align: center;
+}
+#flexboxcontainer .galaxy{
+    width: 500px;
+    margin: 10px;
+    border: 2px solid orange;
+    background-color: gray;
+    min-height: 550px;
+    font-size: 30px;
+    text-align: center;
+}
+#letswork{
+    height: 600px;
+    background-color: gray;
+    border-style: none;
+}
+#letswork .lets{
+    color: aliceblue;
+    font-size: 60px;
+    padding-top: 100px;
+    text-align: center;
+    font-style: italic;
+}
+#letswork .when{ 
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    padding-left: 200px;
+}
+#letswork .line{
+margin-top: 300px;
+color: orange;
+}
+#letswork .footer{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 15px;
+}   
